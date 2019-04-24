@@ -1,0 +1,78 @@
+/**
+Name: Jessica Thompson
+Date: 11/15/18
+Purpose: Build a responsive website  utilizing the bootstrap library to demonstrate our ability to work with
+bootstrap.
+
+I overwrote more than 5 of the defaults because a few of them were straight from the example we did together in class. I wanted to make sure I had at least 5 changes that were my own idea and not just from the learning example. (Also I got caught up on trying to make the page look good)
+**/
+
+
+/**
+-Add a margin to the top of the jumbotron so that it is not hidden under the navbar.
+-Adjust the color of the background in the jumbotron.
+-Made the font color white to create a readable contrast
+-Centered text.
+**/
+.jumbotron {
+    margin-top: 50px;
+    background-color: #1b6d85;
+    color: white;
+    text-align: center;
+}
+
+/**
+Adjust the size of the header font in the jumbotron to make it smaller.
+**/
+.jumbotron h1 {
+    font-size: 45px;
+}
+
+/**
+Adjust the size of the paragraph font in the jumbotron to make it smaller.
+**/
+.jumbotron p {
+    font-size: 15px;
+}
+
+/**
+Change the font of the h2s in the columns
+**/
+h2 {
+    font-family: 'Anton', sans-serif;
+}
+
+/**
+-Warranty and Hoovers page text was hidden under the nav bar. Added this to bump them down to be visible.
+-Added a light background color to reduce the white space
+**/
+body{
+    margin-top: 50px;
+    background-color: #b7bac0;
+}
+
+/**
+-Made the buttons transparent
+-Removed border of buttons
+-Changed button font color to match jumbotron background color
+-Increased font-size
+**/
+.btn-info{
+    background-color: transparent;
+    border: none;
+    color: #1b6d85;
+    font-size: 20px;
+}
+
+/**
+Made the text color in my columns match the button color
+**/
+[id^="column"]{
+    color: #1b6d85;
+}
+
+#contactInfo{
+
+    margin-left: 30%;
+    margin-top: 10%;
+}
