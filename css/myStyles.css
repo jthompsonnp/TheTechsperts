@@ -73,6 +73,17 @@ Made the text color in my columns match the button color
 
 #contactInfo{
 
-    margin-left: 30%;
+    margin-left: 20%;
     margin-top: 10%;
+}
+
+#logo{
+    margin-left: 40%;
+    width: 20%;
+
+}
+
+#underConstruction{
+    width: 70%;
+    margin-left: 10%;
 }
